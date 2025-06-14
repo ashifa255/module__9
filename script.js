@@ -12,7 +12,7 @@ fetch('https://picsum.photos/v2/list?page=2&limit=12')
           <p>Author: ${photo.author}</p>
         </div>
       `;
-
+ 
       gallery.appendChild(imageCard);
     });
   })
