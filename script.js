@@ -18,6 +18,5 @@ fetch('https://picsum.photos/v2/list?page=2&limit=12')
   })
   .catch(error => {
     console.error('Error fetching photos:', error);
-    gallery.innerHTML = <p style="color: red; text-align:center;">Failed to load images. Try again later.</p>;
+    gallery.innerHTML = `<p style="color: red; text-align:center;">Failed to load images. Try again later.</p>`;
   });
-picsum.photos
